@@ -41,7 +41,7 @@ struct CardView: View {
                     }//.padding(.top,24)
                         .frame(maxWidth: .infinity,maxHeight: .infinity)
                     VStack{
-                        Text("#22")
+                        Text("#\(number)")
                             
                             .font(.caption2)
                             .bold()
@@ -55,7 +55,7 @@ struct CardView: View {
                                                .offset(y:-24)
 )
                       
-                        Text("Name")
+                        Text("\(name)")
                             .font(.caption)
                             .foregroundColor(.white)
                         
