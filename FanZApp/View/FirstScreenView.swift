@@ -163,7 +163,7 @@ struct FirstScreenView: View {
                                             showingSheet = true
                                             vm.fetchPlayer(playerNum: "11")
                                         } , label: {
-                                            CardView(y: -40, x: 0)
+                                            CardView(y: -40, x: 0, name: "Mohamed Sala", number: "11")
                                         })
                                         .sheet(isPresented: $showingSheet, content: {
                                             
@@ -176,7 +176,7 @@ struct FirstScreenView: View {
                                             showingSheet = true
                                             vm.fetchPlayer(playerNum: "7")
                                         } , label: {
-                                            CardView(y: -24, x: 0)
+                                            CardView(y: -24, x: 0,name: "Cristiano Ronaldo", number: "7")
                                         })
                                         .sheet(isPresented: $showingSheet, content: {
                                             

@@ -11,6 +11,8 @@ struct CardView: View {
     @StateObject var vm = DataManager()
     var y = 0.0
     var x = 0.0
+    var name = "Ali"
+    var number = "1"
     var body: some View {
         Rectangle()
             .overlay(
